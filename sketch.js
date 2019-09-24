@@ -21,6 +21,7 @@ function draw() {
   line(width/2 + 250, height/2, width/2 + 300 + cos(frameCount*3)*50, height/2 + sin(frameCount*3)*50);
   stroke("Red");
   line(width/2 + 250, height/2, width/2 + 200 + cos(frameCount*3)*50, height/2 + sin(frameCount*3)*50);
+  
   //Rays
   stroke("Red");
   strokeWeight(0.1);
